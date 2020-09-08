@@ -38,6 +38,7 @@ if [[ ! -e $opencv_deb ]];then
     rm -rf ros-kinetic-opencv3-3.3.1  
     apt-get source ros-kinetic-opencv3
 	cp $base_dir/src/opencv/modules/cudalegacy/src/graphcuts.cpp $base_dir/src/ros-kinetic-opencv3-3.3.1/modules/cudalegacy/src/graphcuts.cpp
+    read var
     # Dependencies
     cd $base_dir/src/ros-kinetic-opencv3-3.3.1 && \
 	   apt-get build-dep -y ros-kinetic-opencv3
