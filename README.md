@@ -1,3 +1,6 @@
+NOTE: to work with ORB-SLAM2, in the catkin directory (/MAVBench_base/catkin_ws/devel) add this line to the setup.bash file:
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:{path to ORB-SLAM2}/Examples/ROS
+
 # Welcome to MAVBench 
 This README explains how to setup and use MAVBench, A benchmark and a simulator for Micro Aerial Vehicles.
 
